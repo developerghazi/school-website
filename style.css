@@ -296,7 +296,7 @@ nav .fa{
      margin: 100px auto;
      padding: 100px 0;
      text-align: center;
-     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("images/cta.jpg");
+     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("cta.jpg");
      background-position: center;
      background-size: cover;
      border-radius: 10px;
