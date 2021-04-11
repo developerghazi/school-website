@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benhur High School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100;1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img class="image"
+                    src="http://nebula.wsimg.com/51e4d59161ca688280c2db1b76266af7?AccessKeyId=1DDE0680F94B84383E24&disposition=0&alloworigin=1"
+                    alt="logo-image" style="height:100px;width:150px;"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs for 2021</h1>
+
+    </section>
+    <!-- blog content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/blog.jpg" alt="">
+                <h2>Our Certificate & Online Programs for 2021</h2>
+                <p>Benhur High School is one of the finest schools in Allahabad. It was established in 1998. The school
+                    is co-ed and an English medium platform.The approach of the school is to establish an environment in
+                    which their talents and needs can be
+                    fulfilled. The goal of the school is to improve the studies and improve their benchmarks in terms of
+                    grades.</p>
+                <br>
+                <p>The school has a student count of more than 12000 students. Each student is given equal opportunity
+                    as well as the school teacher's students to take responsibility for themselves, respecting everyone
+                    and do every possible thing possible.</p>
+                <br>
+                <p>The goal of the school is to create a warm, homely and open environment where the students seek
+                    answers, questions, explore and feel safe enough to ask questions. The students are challenged to
+                    surpass their personal best and help them to develop skills. </p>
+                <br>
+                <p>The school looks forward to the all-round and holistic development of every student. Cricket,
+                    basketball are the sports that are planned for sports activities. The main aim of the sports is to
+                    invoke the strengthen virtues of God and humanity and teach them to draw a line between God’s
+                    creatures and humans.</p>
+                <br>
+                <p>The school also works in some social sector. It has a Zahida Community of aspiring and working with
+                    youth to bring a change in human society by observing, analysing and synthesising joys and sorrows
+                    of life. The help is to youngsters to know the objective of birth and embark fruitfulness and the
+                    importance of service to living beings.</p>
+
+                    <div class="comment-box">
+                        <h3>Put your comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Your Email">
+                            <textarea rows="5" placeholder="Your Concern"></textarea>
+                            <button type="submit" class="first-btn about-btn">Post Comment</button>
+                        </form>
+                    </div>
+            </div>
+            <div class="blog-right">
+                <h3>Education Categories</h3>
+                <div>
+                    <span>Kindergarten</span>
+                    <span>2</span>
+                </div>
+                <div>
+                    <span>Science</span>
+                    <span>2</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>1</span>
+                </div>
+                <div>
+                    <span>Arts</span>
+                    <span>3</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are spreading knowledge and education since 1998.<br> Our students are doing well throughout the Nation
+            and Abroad. </p>
+        <div class="icons">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter-square"></i>
+            <i class="fa fa-linkedin-square"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Waqar</p>
+    </section>
+
+    <!--JavaScript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
